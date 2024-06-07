@@ -2,11 +2,16 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './pages/home/home.component';
+import {IniciarSessioFaixedaComponent} from "./iniciar-sessio-faixeda/iniciar-sessio-faixeda.component";
 
 const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent
+  },
+  {
+    path: 'iniciar-sessio-faixeda',
+    component: IniciarSessioFaixedaComponent
   },
   {
     path: 'game',
