@@ -1,0 +1,14 @@
+<form>
+  <p>JUGADOR: </p>
+  <input name="nomjugador" matInput [(ngModel)]="this.nomJugador">
+  <p>PUNTS: </p>
+  <input name="score " matInput [(ngModel)]="this.score">
+  <button (click)="enviarJuagador()"
+          mat-raised-button
+          color="primary"
+          routerLink="/game"
+          class="breath"
+          type="submit">
+    JUGAR
+  </button>
+</form>
